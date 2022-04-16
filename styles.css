@@ -36,7 +36,7 @@ a {
 
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 4rem;
 }
 
@@ -88,6 +88,8 @@ footer p {
 }
 
 .padlock {
+  position: fixed;
   height: 62px;
   width: 51px;
+  
 }
